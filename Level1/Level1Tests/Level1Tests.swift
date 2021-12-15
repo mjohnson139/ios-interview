@@ -1,7 +1,15 @@
-@testable import Level1
+//
+//  Level1Tests.swift
+//  Level1Tests
+//
+//  Created by Matt Johnson on 12/15/21.
+//
+
 import XCTest
+@testable import Level1
 
 class Level1Tests: XCTestCase {
+
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
     }
@@ -17,8 +25,9 @@ class Level1Tests: XCTestCase {
 
     func testPerformanceExample() throws {
         // This is an example of a performance test case.
-        measure {
+        self.measure {
             // Put the code you want to measure the time of here.
         }
     }
+
 }
