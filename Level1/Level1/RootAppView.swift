@@ -7,14 +7,14 @@ struct RootAppView: View {
                 NavigationLink(
                     destination: SolutionView(),
                     label: {
-                        Text("SwiftUI")
+                        Text("SwiftUI Solution")
                     }
                 )
                 NavigationLink(
                     destination: ToSwiftUIView { SolutionViewController()
                     },
                     label: {
-                        Text("UIKit")
+                        Text("UIKit Solution")
                     }
                 )
             }
