@@ -5,12 +5,12 @@ class SolutionViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        let nameTextField = UITextField()
-        nameTextField.placeholder = "Input Field"
-        nameTextField.borderStyle = .roundedRect
+        let inputTextField = UITextField()
+        inputTextField.placeholder = "Input Field"
+        inputTextField.borderStyle = .roundedRect
 
         let stackView = UIStackView(arrangedSubviews: [
-            nameTextField,
+            inputTextField,
         ])
 
         stackView.axis = .vertical
