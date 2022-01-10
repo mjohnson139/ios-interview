@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Y6W-OH-hqX">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--SolutionSB View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="SolutionSBViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Y6W-OH-hqX" customClass="SolutionSBViewController" customModule="Level1" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="VT0-Ea-7FU">
+                                <rect key="frame" x="20" y="44" width="374" height="818"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Input Field" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="oYw-Or-UHM">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="34"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pqg-Pt-im8" userLabel="Spacer">
+                                        <rect key="frame" x="0.0" y="34" width="374" height="784"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    </view>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="VT0-Ea-7FU" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" id="CQQ-Wq-x4w"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="VT0-Ea-7FU" secondAttribute="bottom" id="ICL-OW-z4a"/>
+                            <constraint firstItem="VT0-Ea-7FU" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="esd-fr-mJi"/>
+                            <constraint firstItem="VT0-Ea-7FU" firstAttribute="trailing" secondItem="vDu-zF-Fre" secondAttribute="trailing" constant="-20" id="zl6-xX-1hn"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2313" y="1"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

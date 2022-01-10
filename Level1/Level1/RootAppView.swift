@@ -17,6 +17,16 @@ struct RootAppView: View {
                         Text("UIKit Solution")
                     }
                 )
+                NavigationLink(
+                    destination: ToSwiftUIView {
+                        let storyboard = UIStoryboard(name: "Solution", bundle: nil)
+                        return storyboard.instantiateInitialViewController()!
+                    },
+                    label: {
+                        Text("UIKit w/Storyboard Solution")
+                    }
+                )
+                
             }
             .navigationTitle("Home")
                 .navigationBarTitleDisplayMode(.inline)
